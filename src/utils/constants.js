@@ -1,0 +1,7 @@
+const DEFAULTS ={
+    FAILURE_THRESHOLD :5,
+    SUCCESS_THRESHOLD : 1,
+    TIMEOUT :5000
+}
+
+module.exports = {DEFAULTS}

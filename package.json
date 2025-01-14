@@ -10,6 +10,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "circuit-breaker": "file:"
+    "axios": "^1.7.9",
+    "chai": "^5.1.2",
+    "circuit-breaker": "file:",
+    "mocha": "^11.0.1"
   }
 }
