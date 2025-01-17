@@ -1,4 +1,4 @@
-class CircuitBreaker {
+ class CircuitBreaker {
     //Deifine the failure threshold, success threshold and timeout
     constructor({failureThreshold = 5, successThreshold = 1, timeout=5000}={}){
             this.failureThreshold = failureThreshold;

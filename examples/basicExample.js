@@ -1,4 +1,4 @@
-const CircuitBreaker = require("../src/CircuitBreaker")
+import CircuitBreaker from "../src/index.js";
 
 const breaker = new CircuitBreaker();
 

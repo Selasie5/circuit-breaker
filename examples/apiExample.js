@@ -1,12 +1,11 @@
-const CircuitBreaker = require("../src/CircuitBreaker");
-const circuitBreaker = require("../src/CircuitBreaker");
-const axios = require("axios");
+import CircuitBreaker from "../src/index.js";
+import { get } from "axios";
 
 const breaker = new CircuitBreaker();
 
 const apiCall = async()=>
 {
-    const response = await axios.get("https://httpbin.org/get");
+    const response = await get("https://httpbin.org/get");
     return response.data;
 };
 

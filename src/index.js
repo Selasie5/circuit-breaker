@@ -1,3 +1,2 @@
-const CircuitBreaker = require("./CircuitBreaker");
-
-module.exports = CircuitBreaker;
+import CircuitBreaker from "./CircuitBreaker"
+export default CircuitBreaker;

@@ -1,6 +1,6 @@
-const {expect} = require('chai');
+import { expect } from 'chai';
 
-const CircuitBreaker = require("../src/CircuitBreaker");
+import CircuitBreaker from '../src/index.js';
 
 describe('Circuit Breaker',()=>{
     it("should start in CLOSED state",()=>
